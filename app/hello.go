@@ -1,4 +1,4 @@
-package gites
+package main
 
 import "fmt"
 
