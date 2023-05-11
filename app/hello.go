@@ -18,4 +18,5 @@ func main() {
 	fmt.Println("z=", z)
 
 	fmt.Println("a=", z)
+	fmt.Println("b=", z)
 }
