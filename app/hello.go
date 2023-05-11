@@ -3,31 +3,21 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Oskar init git")
-	var x = []int{10, 3: 20, 30}
 
-	fmt.Printf("Test slices: %v\n", x)
+	x := []int{1, 10, 100, 1000}
+	y := x[:2]
+	z := x[1:]
 
-	var turbo []int
-	turbo = append(turbo, 2)
-	turbo = append(turbo, 10)
-	fmt.Printf("Turbo: %v", turbo)
-
-	fmt.Printf("\n=====\n")
-	fmt.Println(turbo, len(turbo), cap(turbo))
-	turbo = append(turbo, 10)
-
-	fmt.Println(turbo, len(turbo), cap(turbo))
-	turbo = append(turbo, 20)
-
-	fmt.Println(turbo, len(turbo), cap(turbo))
-	turbo = append(turbo, 40)
-
-	fmt.Println(turbo, len(turbo), cap(turbo))
-	turbo = append(turbo, 50)
-
-	fmt.Println(turbo, len(turbo), cap(turbo))
-	turbo = append(turbo, 60)
-
-	fmt.Printf("\n")
+	x[1] = 11
+	y[0] = 111
+	z[1] = 0
+	fmt.Println("x=", x)
+	fmt.Println("y=", y)
+	fmt.Println("z=", z)
+	fmt.Println("z=", z)
+	fmt.Println("z=", z)
+	fmt.Println("z=1", z)
+	fmt.Println("z=2", z)
+	fmt.Println("z=3", z)
+	fmt.Println("z=4", z)
 }
