@@ -28,4 +28,5 @@ func main() {
 	fmt.Println("004")
 
 	fmt.Println("1")
+	fmt.Println("2")
 }
